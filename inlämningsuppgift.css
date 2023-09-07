@@ -1,0 +1,44 @@
+/*body{
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+}
+*/
+
+body{
+    height: 100%vh;
+    background-image: linear-gradient(to right,
+    black 0%,
+    black 50%,
+    orange 50%,
+    orange 100%
+);
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+}
+
+h2{
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+}

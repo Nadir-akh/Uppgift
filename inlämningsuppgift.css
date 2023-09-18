@@ -10,14 +10,13 @@ body{
     color: white;
 }
 
-.subtitle{
+.subtitle{ 
     font-size: 40px;
-    margin: 0;
-    padding: 0;
     font-weight: bold;
+    /*Här har jag valt att välja storleken och tjocklen på Rubriken som då är mitt namn.*/
 }
 
-span{
+span{ /*Detta använde jag så att jag kunde få några av bosktäverna på mitt namn att vara en annan färg. */
     color: darkred;
 }
 
@@ -45,13 +44,13 @@ nav ul li a{
     position: relative;
 }
 
-nav ul li a::after{
+nav ul li a::after{ /*Med "after" så kan man få en underlinje att dyka upp när man rör mussen mot en av listorna*/
     content: "";
     width: 0;
     height: 2px;
     background: red;
     position: absolute;
-    left: 0;
+    left: 0; /* left sätts på noll så att linjen som dyker under listorna startar från vänster sida av ordet. */
     bottom: -1px;
     transition: 0.3s;
 }

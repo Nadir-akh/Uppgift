@@ -6,8 +6,16 @@
 }
 
 body{
-    background: black;
+    background: grey;
     color: white;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/space.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .subtitle{ 
@@ -22,6 +30,12 @@ span{ /*Detta använde jag så att jag kunde få några av bosktäverna på mitt
 
 .main{
     padding: 10px 2%;
+}
+
+.img{
+    border-radius: 10%;
+    width: 300px;
+    height: auto;
 }
 
 nav{
@@ -61,5 +75,6 @@ nav ul li a:hover::after{
 
 .subtitle-text{
     margin-top: 15%;
-    font-size: 25px;
+    font-size: 30px;
+    text-align: center;
 }

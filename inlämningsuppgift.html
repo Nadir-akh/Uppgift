@@ -13,9 +13,9 @@
             <nav>
                 <h2 class="subtitle"><span>Nadir</span></h2>
                 <ul>
-                    <li><a href="#">Hem</a></li> <!-- Här skapar vi listor som ska finnas i min hemsida och ha olika info om mig och hemsidan.-->
-                    <li><a href="#">Om mig</a></li>
-                    <li><a href="#">Kontakta mig</a></li>
+                    <li><a href="#header">Hem</a></li> <!-- Här skapar vi listor som ska finnas i min hemsida och ha olika info om mig och hemsidan.-->
+                    <li><a href="#mig">Om mig</a></li>
+                    <li><a href="#kontakt">Kontakta mig</a></li>
                 </ul>
             </nav>
                 <div class="subtitle-text">
@@ -29,21 +29,31 @@
         <div class="row">
             <img src="./images/profilbild.png" class="img" alt="Bild på mig">
         </div>
-     <div>
-     <h1 class="andra-rubrik">Om mig</h1>
-     <p>Mitt namn är Nadir, är 21 år gammal och uppväxt i Stockholm, Akalla.
-     Jag är en social person som älskar att umgås med familj och vänner samt älskar jag att träna.
-     Jag gillar utmaningar och lära mig nya saker vilket frontend utvecklingen är för mig.</p>
-     </div>
+        <div>
+            <h1>Om mig</h1>
+            <p>Mitt namn är Nadir, är 21 år gammal och uppväxt i Stockholm, Akalla.
+            <br>Jag är en social person som älskar att umgås med familj och vänner samt älskar jag att träna. <br>Jag gillar utmaningar och lära mig nya saker,
+            <br>speciellt att kunna göra min egna hemsida vilket frontend utvecklingen utbildningen kommer att erbjuda.</p>
+        </div>
     </div>
 </div>
 
-<div class="tredje">
-    <h2>Kontakta mig</h2>
-
-
-
+<div id="kontakt">
+    <div class="info-1">
+        <h2 class="subtitle">Kontakta mig</h2>
+        <p>Nadirakhboubouch17@gmail.com
+        <br> 0700256524
+        </p>
+        
+    </div>
+        <div class="info-2">
+            <form>
+                <input type="text" name="Namn" placeholder="Ditt Namn">
+                <input type="Email" name="Email" placeholder="Din Email">
+                <textarea name="message" rows="5" placeholder="Meddelande"></textarea>
+                <button type="button">skicka</button>
+            </form>
+        </div>
 </div>
-
 </body>
 </html>

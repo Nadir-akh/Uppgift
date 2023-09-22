@@ -3,11 +3,15 @@
     margin: 0;
     font-family: monospace;
     box-sizing: border-box;
-
+    
+}
+html{
+    scroll-behavior: smooth;
 }
 
 body{
     color: white;
+    background-color: black;
 }
 
 #header{
@@ -30,7 +34,6 @@ span{ /*Detta använde jag så att jag kunde få några av bosktäverna på mitt
 .main{
     padding: 10px 2%;
 }
-
 
 nav{
     display: flex;
@@ -88,7 +91,8 @@ nav ul li a:hover::after{
     height: auto;
 }
 
-.container{
+.container{ /* Vi justerar texten och bilden så att den ligger till vänster sida med hjälp av flexbox, 
+    hade vi lagt center istället för start så hade bilden och texten liggat centralt*/
     display: flex;
     justify-content: start;
     align-items: start;
@@ -104,10 +108,45 @@ p{
  font-size: 11px; 
  font-family: cursive;
  height: 100px;
- width: 200px;
+ width: 100%;
+ display: block;
 }
 
-.tredje{
-    color: white;
-    background: black;
+#kontakt{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/space.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+.info-1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+.info-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form textarea{ /* detta är för justera formulärens margin, padding samt bredden på den. */
+    width: 50%;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+@media (min-width: 200px) and (max-width: 480px){ /* När skärmen är minst 200px fram till 480px så kommer text storleken att vara 9px */
+    p{
+        font-size: 8px;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 1200px){  
+  }
+
+  @media (min-width: 1201px){
+  }

@@ -3,6 +3,7 @@
     margin: 0;
     font-family: monospace;
     box-sizing: border-box;
+
 }
 
 body{
@@ -18,9 +19,8 @@ body{
 }
 
 .subtitle{ 
-    font-size: 30px;
-    font-weight: bold;
-    /*Här har jag valt att välja storleken och tjocklen på Rubriken som då är mitt namn.*/
+    font-size: 25px;
+    font-weight: bold; /*Här har jag valt att välja storleken och tjocklen på Rubriken som då är mitt namn.*/
 }
 
 span{ /*Detta använde jag så att jag kunde få några av bosktäverna på mitt namn att vara en annan färg. */
@@ -76,7 +76,7 @@ nav ul li a:hover::after{
 #mig{
     width: 100%;
     height: 100vh;
-    background-image: url(./images/smoke.jpg);
+    background-image: url(./images/space.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
